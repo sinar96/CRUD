@@ -6,11 +6,11 @@
   </head>
   <body>
     <div class="container">
-      <h1>All polls</h1>
+      <h1>Daftar Nama </h1>
       <br>
       {% for list in lists %}
-      <h3><a href="/lists/{{list.id}}">{{list.name}}</a></h3>
-      <h5>Nama: {{list.candidate}}</a></h5>
+      <h5>Nama: {{list.name}}</a></h5>
+      <h5>Usia : {{list.age}}
       {% endfor %}
     </div>
   </body>
